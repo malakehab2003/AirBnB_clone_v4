@@ -116,11 +116,12 @@ button:hover {
     visibility: visible;
 }
 
-.amenities h4 {
+.amenities h4,
+.locations h4 {
     text-overflow: ellipsis;
     white-space: nowrap;
     height: 16px;
-    width: 300px;
+    width: 212.5px;
     overflow: hidden;
     display: block
 }
