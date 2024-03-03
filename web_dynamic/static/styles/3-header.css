@@ -1,0 +1,25 @@
+header {
+    background: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+header .logo {
+    background: url("../images/logo.png") no-repeat;
+    left: 20px;
+    height: 100%;
+}
+
+header #api_status {
+    height: 40px;
+    width: 40px;
+    background-color: #cccccc;
+    border-radius: 40px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -55px;
+}
+
+#api_status.available {
+    background-color: #ff545f;
+}
